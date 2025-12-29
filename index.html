@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>相關網站 - 新竹縣氣候變遷政策</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        body { 
+            font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft JhengHei", sans-serif; 
+            background-color: #f0f7f6; 
+            padding: 40px 20px; 
+            line-height: 1.8; 
+            color: #2c3e50; 
+            margin: 0;
+        }
+
+        .container { 
+            max-width: 1200px; 
+            margin: auto; 
+        }
+
+        h1 { 
+            color: #004d40; 
+            text-align: center; 
+            font-size: 2.4rem;
+            margin-bottom: 20px; 
+            font-weight: bold;
+        }
+
+        .header-underline {
+            width: 100%;
+            border-bottom: 3px solid #26a69a; 
+            margin-bottom: 40px;
+        }
+
+        /* --- 【修改位置】左右排列的核心設定 --- */
+        .flex-row {
+            display: flex;
+            gap: 25px; /* 兩個白框之間的間距 */
+            align-items: stretch; /* 讓兩個框高度自動對齊 */
+            flex-wrap: wrap; /* 在小螢幕時自動換回上下排列 */
+        }
+
+        .card { 
+            background: #ffffff; 
+            border-radius: 8px; 
+            padding: 35px; 
+            box-shadow: 0 4px 20px rgba(0, 77, 64, 0.08); 
+            border: 1px solid #d1e4e2;
+            /* 【修改位置】讓兩個框各佔約一半寬度 */
+            flex: 1;
+            min-width: 450px; /* 當視窗小於此寬度時會自動換行 */
+        }
+
+        .link-title { 
+            color: #006064; 
+            font-weight: 800; 
+            font-size: 1.5em; 
+            border-left: 8px solid #26a69a;
+            padding-left: 15px;
+            margin-bottom: 25px;
+            display: block;
+        }
+
+        .link-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .link-item {
+            padding: 10px 12px;
+            border-bottom: 1px solid #f0f7f6;
+            transition: 0.2s;
+        }
+
+        .link-item:last-child {
+            border-bottom: none;
+        }
+
+        .link-item a {
+            color: #2c3e50;
+            text-decoration: none;
+            font-size: 1.05em;
+            display: flex;
+            align-items: center;
+        }
+
+        .link-item a i.fa-circle-chevron-right {
+            color: #26a69a;
+            margin-right: 12px;
+            font-size: 0.9em;
+        }
+
+        .link-item a i.fa-external-link-alt {
+            margin-left: auto;
+            color: #bdc3c7;
+            font-size: 0.8em;
+        }
+
+        .link-item a:hover {
+            color: #00796b;
+            font-weight: bold;
+        }
+
+        /* 手機版排版微調 */
+        @media (max-width: 768px) {
+            .card { min-width: 100%; }
+            h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>相關網站</h1>
+        <div class="header-underline"></div>
+
+        <div class="flex-row">
+            
+            <div class="card">
+                <span class="link-title">氣候變遷相關資訊</span>
+                <ul class="link-list">
+                    <li class="link-item">
+                        <a href="https://www.cca.gov.tw/" target="_blank">
+                            <i class="fas fa-circle-chevron-right"></i> 環境部氣候變遷署 <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </li>
+                    <li class="link-item">
+                        <a href="https://www.cwa.gov.tw/V8/C/C/Change/index.html" target="_blank">
+                            <i class="fas fa-circle-chevron-right"></i> 交通部中央氣象署-氣候變遷專區 <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </li>
+                    <li class="link-item">
+                        <a href="https://www.ncdr.nat.gov.tw/" target="_blank">
+                            <i class="fas fa-circle-chevron-right"></i> 國家災害防救科技中心 <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </li>
+                    <li class="link-item">
+                        <a href="https://www.ndc.gov.tw/Content_List.aspx?n=16EC65070B5B4A1F" target="_blank">
+                            <i class="fas fa-circle-chevron-right"></i> 國家發展委員會 <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </li>
+                    <li class="link-item">
+                        <a href="https://climatechange.moe.edu.tw/" target="_blank">
+                            <i class="fas fa-circle-chevron-right"></i> 教育部氣候變遷教學資訊平台 <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </li>
+                    <li class="link-item">
+                        <a href="https://eocdss.ncdr.nat.gov.tw/web/cc" target="_blank">
+                            <i class="fas fa-circle-chevron-right"></i> 氣候變遷平台［鑑古知今，探未來］ <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </li>
+                    <li class="link-item">
+                        <a href="https://www.facebook.com/climate.taiwan" target="_blank">
+                            <i class="fas fa-circle-chevron-right"></i> 報氣候-中央氣象署FB <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <span class="link-title">氣候變遷調適平台</span>
+                <ul class="link-list">
+                    <li class="link-item">
+                        <a href="https://tccip.ncdr.nat.gov.tw/index.aspx" target="_blank">
+                            <i class="fas fa-circle-chevron-right"></i> 臺灣氣候變遷推估與資訊平台 <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </li>
+                    <li class="link-item">
+                        <a href="https://dra.ncdr.nat.gov.tw/" target="_blank">
+                            <i class="fas fa-circle-chevron-right"></i> Dr.A氣候變遷災害風險調適平臺 <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </li>
+                    <li class="link-item">
+                        <a href="https://acca.ncdr.nat.gov.tw/" target="_blank">
+                            <i class="fas fa-circle-chevron-right"></i> 農業災害與氣候變遷風險資訊站 <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div> </div>
+</body>
+</html>
